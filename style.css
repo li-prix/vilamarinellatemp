@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.navbar {
+  background-color: rgba(6, 44, 128, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: "Calligraffitti", cursive;
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 2.3em;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-weight: 500;
+  font-family: "Calligraffitti", cursive;
+}
+
+.text-location {
+  font-family: "Calligraffitti", cursive;
+  font-size: 0.4em !important;
+  text-align: center;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 1.3em;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(225, 225, 225)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.navbar-toggler {
+  color: transparent;
+}
+
+.hero {
+  position: relative;
+  background-image: url("/photos/jardim.jpg");
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  /* background-color: rgba(55, 60, 185, 0.25); */
+}
+
+.divider {
+  font-family: "Calligraffitti", cursive;
+  color: rgba(20, 75, 158, 1);
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  /* text-decoration: underline overline; */
+  text-decoration-thickness: 1px;
+}
+
+.title {
+  font-family: "Calligraffitti", cursive;
+  color: rgba(20, 75, 158, 1);
+  font-weight: 600;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  /* text-decoration: underline overline; */
+  text-decoration-thickness: 1px;
+}
+
+.row {
+  margin: 0;
+}
+
+.banner {
+  background-color: beige;
+}
+.info {
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+figure:hover {
+  box-shadow: 0 0 2px 1px rgba(6, 44, 128, 0.5);
+}
+
+.footer {
+  background-color: rgba(29, 75, 158, 1);
+  color: white;
+}
+
+.link-footer {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
+}
+
+.link-footer p {
+  font-size: 0.8rem;
+}
+
+.loc-text {
+  font-size: 0.8rem;
+}
